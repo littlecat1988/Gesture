@@ -41,7 +41,9 @@ public class CreateGestureActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
         Log.e(TAG,"log test");
+
         setContentView(R.layout.create_gesture);
 
         mDoneButton = findViewById(R.id.done);
